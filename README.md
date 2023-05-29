@@ -9,12 +9,12 @@ An easy-to-use extension for the [Pycord](https://github.com/Pycord-Development/
 ## Installing
 Python 3.9 or higher is required.
 ```
-pip install ezcord
+pip install ezycord
 ```
 You can also install the latest version from GitHub. Note that this version may be unstable
 and requires [git](https://git-scm.com/downloads) to be installed.
 ```
-pip install git+https://github.com/tibue99/ezcord
+pip install git+https://github.com/Timootm/ezycord
 ```
 
 ## Useful Links
@@ -25,10 +25,10 @@ pip install git+https://github.com/tibue99/ezcord
 
 ## Example
 ```py
-import ezcord
+import ezycord
 import discord
 
-bot = ezcord.Bot(
+bot = ezycord.Bot(
     intents=discord.Intents.default()
 )
 
